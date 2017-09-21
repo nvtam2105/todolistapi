@@ -1,0 +1,30 @@
+{
+  "name": "todilistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvtam2105/todolistapi.git"
+  },
+  "keywords": [
+    "RESTfull"
+  ],
+  "author": "nvtam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvtam2105/todolistapi/issues"
+  },
+  "homepage": "https://github.com/nvtam2105/todolistapi#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12"
+  }
+}
